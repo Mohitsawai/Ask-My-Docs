@@ -1,2 +1,3 @@
-# Ask-My-Docs
-Designed a domain-specific document Q&amp;A system using hybrid retrieval (BM25 + dense vector search) with cross-encoder reranking, improving retrieval precision and downstream answer relevance over single-method baselines
+Designed a domain-specific document Q&A system using hybrid retrieval (BM25 + dense vector search) with cross-encoder reranking, improving retrieval precision and downstream answer relevance over single-method baselines
+Enforced source citations on every generated answer to reduce hallucinations and increase user trust, and implemented chunking and metadata-filtering strategies to improve context retrieval for long, multi-section documents.
+Stack: LangChain, FAISS/ChromaDB, Python, OpenAI APIs, Ragas — reflecting the retrieval-augmented generation pattern widely adopted in enterprise AI systems.
